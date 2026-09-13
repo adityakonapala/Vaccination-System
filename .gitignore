@@ -1,0 +1,28 @@
+# Backend
+vaccination-backend/node_modules/
+vaccination-backend/.env
+
+# Frontend
+vaccination-ui/node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Build files
+vaccination-ui/build/
+vaccination-ui/dist/
+vaccination-backend/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
