@@ -62,17 +62,25 @@ function UserLogin() {
   });
 
   return (
-    <div className="container mt-5">
+   <div style={{
+        minHeight: "100vh",
+        backgroundImage: "url('/vaccination-login-bg.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}>
+     <div className="container " style={{paddingTop:"150px"}}>
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-center ">
 
         <div className="col-md-5">
 
-          <div className="card shadow">
+          <div className="card shadow rounded-4 ">
 
-            <div className="card-body p-4">
+            <div className="card-body p-4 ">
 
               <h2 className="text-center mb-4">
+                <span className="bi bi-person-fill"></span>
                 User Login
               </h2>
 
@@ -191,6 +199,7 @@ function UserLogin() {
       </div>
 
     </div>
+   </div>
   );
 }
 

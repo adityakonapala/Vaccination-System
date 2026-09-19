@@ -40,6 +40,7 @@ function Home() {
             className="btn btn-warning"
             to="/admin-login"
           >
+            <span className="bi bi-person-gear px-1"></span>
             Admin Login
           </Link>
         </div>
@@ -69,6 +70,7 @@ function Home() {
             to="/register"
             className="btn btn-outline-primary btn-lg rounded-pill"
           >
+            <span className="bi bi-plus-circle-dotted px-1"></span>
             Register
           </Link>
         </div>

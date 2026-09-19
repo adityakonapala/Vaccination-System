@@ -101,13 +101,22 @@ function UserRegister() {
 
   return (
 
-    <div className="container mt-5">
+    <div 
+     style={{
+        minHeight: "100vh",
+        backgroundImage: "url('/vaccination-login-bg.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div className="container" style={{paddingTop:"60px"}}>
 
       <div className="row justify-content-center">
 
         <div className="col-md-6">
 
-          <div className="card shadow">
+          <div className="card shadow rounded-4">
 
             <div className="card-body p-4">
 
@@ -322,6 +331,7 @@ function UserRegister() {
 
       </div>
 
+    </div>
     </div>
   );
 }
