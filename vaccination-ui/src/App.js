@@ -19,7 +19,9 @@ function App() {
          <Route path="/admin-dashboard" element={<AdminDashboard />}/>
 
          <Route path="/user-login" element={<UserLogin />}/>
+
          <Route path="/user-dashboard" element={<UserDashboard />}/>
+         
          <Route path="/register" element={<UserRegister />}/>
       </Routes>
     </BrowserRouter>
